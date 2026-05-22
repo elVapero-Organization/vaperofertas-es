@@ -4,186 +4,222 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vaperofertas.es – Caladas Premium y Vapers Desechables con Envío Gratis</title>
+    <title>Vaperofertas.es – Selección de vapers desechables con muchas caladas</title>
     <meta name="description"
-        content="Caladas intensas, sabores vaper y cigarrillos electrónicos desechables con envío rápido en España.">
+        content="Selección de vapers desechables y cigarrillos electrónicos para usuarios adultos en España. Compara modelos por cantidad de caladas, formato y características visibles en cada ficha.">
     <link rel="stylesheet" href="style.css">
-    <meta name="keywords"
-        content="caladas,vapers desechables,vaper desechable,vaper con nicotina,cigarrillos electrónicos,muchas caladas,sabores vaper,puff,cigarrillos electrónicos desechables">
-    <meta name="title" content="Vaperofertas.es – Caladas Premium y Vapers Desechables con Envío Gratis">
+    <meta name="title" content="Vaperofertas.es – Selección de vapers desechables con muchas caladas">
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
-    <!-- JSON-LD structured data: mirrors visible homepage content only -->
-    <!-- TODO: Confirm whether the primary production brand/domain should be Vaperofertas.es or Elvapero.es. -->
+    <!-- JSON-LD structured data: matches ONLY visible page content (no prices/offers/reviews/ratings). -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@type": "OnlineStore",
-            "@id": "https://elvapero.es/#organization",
-            "name": "Vaperofertas.es",
-            "alternateName": "Elvapero.es",
-            "url": "https://elvapero.es/",
-            "logo": "https://elvapero.es/apple-touch-icon.png",
-            "contactPoint": [
+            "@graph": [
                 {
-                    "@type": "ContactPoint",
-                    "contactType": "customer support",
-                    "email": "info@elvapero.es",
-                    "telephone": "+34 663 167 736",
+                    "@type": "Organization",
+                    "@id": "https://vaperofertas.es/#organization",
+                    "name": "Vaperofertas.es",
+                    "url": "https://vaperofertas.es/",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://vaperofertas.es/apple-touch-icon.png"
+                    },
+                    "image": "https://vaperofertas.es/apple-touch-icon.png",
                     "areaServed": "ES",
-                    "availableLanguage": [
-                        "es"
+                    "availableLanguage": "es-ES"
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https://vaperofertas.es/#website",
+                    "url": "https://vaperofertas.es/",
+                    "name": "Vaperofertas.es",
+                    "publisher": {
+                        "@id": "https://vaperofertas.es/#organization"
+                    },
+                    "inLanguage": "es-ES"
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https://vaperofertas.es/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Página principal",
+                            "item": "https://vaperofertas.es/"
+                        }
                     ]
-                }
-            ],
-            "areaServed": {
-                "@type": "Country",
-                "name": "Spain"
-            },
-            "availableLanguage": [
-                "es"
-            ]
-        }
-    </script>
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "@id": "https://elvapero.es/#website",
-            "name": "Vaperofertas.es",
-            "url": "https://elvapero.es/",
-            "inLanguage": "es"
-        }
-    </script>
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "@id": "https://elvapero.es/#breadcrumb",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "P\u00e1gina Principal",
-                    "item": "https://elvapero.es/"
-                }
-            ]
-        }
-    </script>
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "ItemList",
-            "@id": "https://elvapero.es/#recommended-products",
-            "name": "Productos Recomendados",
-            "numberOfItems": 9,
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "VapSolo Quads 80K",
-                    "url": "https://elvapero.es/products/vapsolo-quads-80k-caladas-80000",
-                    "image": "https://elvapero.es/images/products/VapSolo-Quads-80K-Espana-Vaper-Desechable-Strawberry-Mango-Watermelon-Ice-80000-Caladas.png"
                 },
                 {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": "JNR Triple 3 en 1 110K",
-                    "url": "https://elvapero.es/products/jnr-triple-110k-caladas-110000",
-                    "image": "https://elvapero.es/images/products/JNR-Triple-3-en-1-110K-Espana-Vaper-Desechable-Watermelon-Ice-Triple-Melon-Strawberry-Watermelon-Ice-110000-Caladas.png"
+                    "@type": "CollectionPage",
+                    "@id": "https://vaperofertas.es/#collection-page",
+                    "url": "https://vaperofertas.es/",
+                    "name": "Vaperofertas.es – Selección de vapers desechables con muchas caladas",
+                    "description": "Selección de vapers desechables y cigarrillos electrónicos para usuarios adultos en España. Compara modelos por caladas, formato y características visibles en cada ficha.",
+                    "inLanguage": "es-ES",
+                    "isPartOf": {
+                        "@id": "https://vaperofertas.es/#website"
+                    },
+                    "breadcrumb": {
+                        "@id": "https://vaperofertas.es/#breadcrumb"
+                    },
+                    "mainEntity": [
+                        {
+                            "@id": "https://vaperofertas.es/#itemlist"
+                        },
+                        {
+                            "@id": "https://vaperofertas.es/#faq"
+                        }
+                    ]
                 },
                 {
-                    "@type": "ListItem",
-                    "position": 3,
-                    "name": "Fumot Eco 2 en 1 50K",
-                    "url": "https://elvapero.es/products/fumot-eco-2w1-50k-caladas-50000",
-                    "image": "https://elvapero.es/images/products/Fumot-Eco-2-en-1-50K-Espana-Vaper-Desechable-Banana-Ice-Black-Dragon-Ice-50000-Caladas.png"
+                    "@type": "ItemList",
+                    "@id": "https://vaperofertas.es/#itemlist",
+                    "name": "Productos recomendados",
+                    "numberOfItems": 9,
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "item": {
+                                "@type": "Thing",
+                                "name": "VapSolo Quads 80K vaper desechable 80000 caladas",
+                                "url": "https://elvapero.es/products/vapsolo-quads-80k-caladas-80000",
+                                "image": "https://vaperofertas.es/images/products/VapSolo-Quads-80K-Espana-Vaper-Desechable-Strawberry-Mango-Watermelon-Ice-80000-Caladas.png"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "item": {
+                                "@type": "Thing",
+                                "name": "JNR Triple 3 en 1 110K vaper desechable 110000 caladas",
+                                "url": "https://elvapero.es/products/jnr-triple-110k-caladas-110000",
+                                "image": "https://vaperofertas.es/images/products/JNR-Triple-3-en-1-110K-Espana-Vaper-Desechable-Watermelon-Ice-Triple-Melon-Strawberry-Watermelon-Ice-110000-Caladas.png"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 3,
+                            "item": {
+                                "@type": "Thing",
+                                "name": "Fumot Eco 2 en 1 50K vaper desechable 50000 caladas",
+                                "url": "https://elvapero.es/products/fumot-eco-2w1-50k-caladas-50000",
+                                "image": "https://vaperofertas.es/images/products/Fumot-Eco-2-en-1-50K-Espana-Vaper-Desechable-Banana-Ice-Black-Dragon-Ice-50000-Caladas.png"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 4,
+                            "item": {
+                                "@type": "Thing",
+                                "name": "VapSolo Twins Pro 50K vaper desechable 50000 caladas",
+                                "url": "https://elvapero.es/products/vapsolo-twins-pro-50k-caladas-50000",
+                                "image": "https://vaperofertas.es/images/products/VapSolo-Twins-Pro-50K-Espana-Vaper-Desechable-Strawberry-kiwi-Strawberry-raspberry-chery-ice-50000-Caladas.png"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 5,
+                            "item": {
+                                "@type": "Thing",
+                                "name": "MerryMi Mecha X 28K vaper desechable 28000 caladas",
+                                "url": "https://elvapero.es/products/merrymi-mecha-x-28k-caladas-28000",
+                                "image": "https://vaperofertas.es/images/products/MerryMi-Mecha-X-28K-Espana-Vaper-Desechable-Peach-Guava-28000-Caladas.png"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 6,
+                            "item": {
+                                "@type": "Thing",
+                                "name": "JNR Quads 4 en 1 120K vaper desechable 120000 caladas",
+                                "url": "https://elvapero.es/products/jnr-quads-120k-caladas-120000",
+                                "image": "https://vaperofertas.es/images/products/JNR-Quads-4-en-1-120K-Espana-Vaper-Desechable-Raspberry-Orange-Blueberry-Sour-Raspberry-JNR-VC-Boost-JNR-Red-Punch-120000-Caladas.png"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 7,
+                            "item": {
+                                "@type": "Thing",
+                                "name": "Fumot RandM Tornado 15K vaper desechable 15000 caladas",
+                                "url": "https://elvapero.es/products/fumot-tornado-15k-caladas-15000",
+                                "image": "https://vaperofertas.es/images/products/Fumot-RandM-Tornado-15K-Espana-Vaper-Desechable-Grape-Ice-15000-Caladas.png"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 8,
+                            "item": {
+                                "@type": "Thing",
+                                "name": "JNR RageGorilla 55K vaper desechable 55000 caladas",
+                                "url": "https://elvapero.es/products/jnr-ragegorilla-55k-caladas-55000",
+                                "image": "https://vaperofertas.es/images/products/JNR-RageGorilla-55K-Espana-Vaper-Desechable-Blueberry-Raspberry-Cherry-55000-Caladas.png"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 9,
+                            "item": {
+                                "@type": "Thing",
+                                "name": "MerryMi Panda Pod 66K vaper desechable 66000 caladas",
+                                "url": "https://elvapero.es/products/merrymi-panda-pod-66k-caladas-66000",
+                                "image": "https://vaperofertas.es/images/products/MerryMi-Panda-Pod-66K-Espana-Vaper-Desechable-Strawberry-Kiwi-Grape-Ice-Blueberry-Raspberry-66000-Caladas.png"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "@type": "ListItem",
-                    "position": 4,
-                    "name": "VapSolo Twins Pro 50K",
-                    "url": "https://elvapero.es/products/vapsolo-twins-pro-50k-caladas-50000",
-                    "image": "https://elvapero.es/images/products/VapSolo-Twins-Pro-50K-Espana-Vaper-Desechable-Strawberry-kiwi-Strawberry-raspberry-chery-ice-50000-Caladas.png"
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 5,
-                    "name": "MerryMi Mecha X 28K",
-                    "url": "https://elvapero.es/products/merrymi-mecha-x-28k-caladas-28000",
-                    "image": "https://elvapero.es/images/products/MerryMi-Mecha-X-28K-Espana-Vaper-Desechable-Peach-Guava-28000-Caladas.png"
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 6,
-                    "name": "JNR Quads 4 en 1 120K",
-                    "url": "https://elvapero.es/products/jnr-quads-120k-caladas-120000",
-                    "image": "https://elvapero.es/images/products/JNR-Quads-4-en-1-120K-Espana-Vaper-Desechable-Raspberry-Orange-Blueberry-Sour-Raspberry-JNR-VC-Boost-JNR-Red-Punch-120000-Caladas.png"
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 7,
-                    "name": "Fumot RandM Tornado 15K",
-                    "url": "https://elvapero.es/products/fumot-tornado-15k-caladas-15000",
-                    "image": "https://elvapero.es/images/products/Fumot-RandM-Tornado-15K-Espana-Vaper-Desechable-Grape-Ice-15000-Caladas.png"
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 8,
-                    "name": "JNR RageGorilla 55K",
-                    "url": "https://elvapero.es/products/jnr-ragegorilla-55k-caladas-55000",
-                    "image": "https://elvapero.es/images/products/JNR-RageGorilla-55K-Espana-Vaper-Desechable-Blueberry-Raspberry-Cherry-55000-Caladas.png"
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 9,
-                    "name": "MerryMi Panda Pod 66K",
-                    "url": "https://elvapero.es/products/merrymi-panda-pod-66k-caladas-66000",
-                    "image": "https://elvapero.es/images/products/MerryMi-Panda-Pod-66K-Espana-Vaper-Desechable-Strawberry-Kiwi-Grape-Ice-Blueberry-Raspberry-66000-Caladas.png"
-                }
-            ]
-        }
-    </script>
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "@id": "https://elvapero.es/#faq",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "\u00bfCu\u00e1ntas caladas trae cada vaper desechable?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Los modelos disponibles ofrecen entre 5 000 y 50 000 caladas. Escoge seg\u00fan cu\u00e1nto vapeas al d\u00eda."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "\u00bfQu\u00e9 es un vaper con nicotina?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Utilizamos sales de nicotina suaves que proporcionan el golpe justo sin resecar la garganta."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "\u00bfC\u00f3mo elijo sabores vaper?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Recomendamos probar sabores frutales si prefieres puff ligeros, o mentolados y postres para caladas refrescantes."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "\u00bfSon aut\u00e9nticos los cigarrillos electr\u00f3nicos desechables?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Trabajamos con marcas oficiales y verificamos cada lote para que recibas cigarrillos electr\u00f3nicos desechables aut\u00e9nticos."
-                    }
+                    "@type": "FAQPage",
+                    "@id": "https://vaperofertas.es/#faq",
+                    "inLanguage": "es-ES",
+                    "mainEntity": [
+                        {
+                            "@type": "Question",
+                            "name": "¿Dónde comprar vapers desechables online en España?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Puedes consultar los modelos visibles desde esta página y acceder a cada ficha de producto para ver detalles, caladas, imágenes y características antes de comprar online."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "¿Hay vapers desechables disponibles en las principales ciudades de España?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "La página está orientada a usuarios de España e incluye referencias a ciudades principales como Madrid, Barcelona, Valencia, Sevilla, Zaragoza, Málaga, Bilbao y Alicante."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "¿Cuántas caladas tienen los modelos?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Depende de cada producto. En la página aparecen modelos con diferentes cantidades de caladas, indicadas normalmente en el nombre del producto o en su ficha."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "¿Qué marcas de vapers desechables aparecen en la página?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "La selección puede incluir marcas visibles en la página, según el catálogo mostrado."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "¿Cómo elegir un vaper desechable?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Compara la cantidad de caladas, el formato, la marca y el tipo de sabor. Si buscas más duración, revisa modelos con más caladas; si prefieres algo simple, compara formatos compactos."
+                            }
+                        }
+                    ]
                 }
             ]
         }
@@ -210,7 +246,7 @@
             <div class="header-content">
                 <div class="logo">
                     <a href="#index.html"></a>
-                    <img src="favicon-96x96.png" alt="Favicon 96x96 - caladas, vapers desechables, vaper desechable, vaper con nicotina, cigarrillos electrónicos, muchas caladas, sabores vaper, puff, cigarrillos electrónicos desechables">
+                    <img src="favicon-96x96.png" alt="Logo de Vaperofertas.es">
                     <span>Vaperofertas.es</span>
                 </div>
 
@@ -282,8 +318,8 @@
                         Vaperofertas.es reúne Vapers Desehables, vapers desechables y vaper con nicotina para que
                         disfrutes
                         de
-                        puff intensos y muchas caladas desde el primer uso. Pide ahora y recibe envío rápido en toda
-                        España.
+                        muchas caladas desde el primer uso. Consulta cada ficha para ver detalles del modelo antes de
+                        comprar online en España.
                     </p>
 
                     <div class="hero-buttons">
@@ -304,7 +340,7 @@
                     <div class="phone-mockup">
                         <div class="phone-screen">
                             <img src="images/products/VapSolo-Master-70K-Espana-Vaper-Desechable-Peach-Berry-70000-Caladas.png"
-                                alt="VapSolo Master 70K Espana Vaper Desechable Peach Berry 70000 Caladas - caladas, vapers desechables, vaper desechable, vaper con nicotina, cigarrillos electrónicos, muchas caladas, sabores vaper, puff, cigarrillos electrónicos desechables">
+                                alt="VapSolo Master 70K vaper desechable con 70000 caladas">
                         </div>
                     </div>
                 </div>
@@ -413,7 +449,7 @@
                         </svg>
                     </div>
                     <h3>Más de 1000 sabores</h3>
-                    <p>Sabores vaper exclusivos y muchos caladas por cada puff.</p>
+                    <p>Sabores variados y muchas caladas según el modelo.</p>
                 </a>
             </div>
         </div>
@@ -424,15 +460,14 @@
         <div class="container">
             <div class="section-header">
                 <h2>Productos Recomendados</h2>
-                <p>Vapers desechables y cigarrillos electrónicos con muchas caladas, puff saborizados y envíos seguros.
-                </p>
+                <p>Vapers desechables y cigarrillos electrónicos con muchas caladas para usuarios adultos en España.</p>
             </div>
 
             <div class="products-grid">
                 <!-- Producto 1 -->
                 <div class="product-card">
                     <img src="images/products/VapSolo-Quads-80K-Espana-Vaper-Desechable-Strawberry-Mango-Watermelon-Ice-80000-Caladas.png"
-                        alt="VapSolo Quads 80K Espana Vaper Desechable Strawberry Mango Watermelon Ice 80000 Caladas - caladas, vapers desechables, vaper desechable, vaper con nicotina, cigarrillos electrónicos, muchas caladas, sabores vaper, puff, cigarrillos electrónicos desechables"
+                        alt="VapSolo Quads 80K vaper desechable con 80000 caladas"
                         class="product-img">
                     <h1>VapSolo Quads 80K</h1>
                     <span>80000 Caladas</span>
@@ -444,7 +479,7 @@
                 <!-- Producto 2 -->
                 <div class="product-card">
                     <img src="images/products/JNR-Triple-3-en-1-110K-Espana-Vaper-Desechable-Watermelon-Ice-Triple-Melon-Strawberry-Watermelon-Ice-110000-Caladas.png"
-                        alt="JNR Triple 3 en 1 110K Espana Vaper Desechable Watermelon Ice Triple Melon Strawberry Watermelon Ice 110000 Caladas - caladas, vapers desechables, vaper desechable, vaper con nicotina, cigarrillos electrónicos, muchas caladas, sabores vaper, puff, cigarrillos electrónicos desechables" class="product-img">
+                        alt="JNR Triple 3 en 1 110K vaper desechable con 110000 caladas" class="product-img">
                     <h1>JNR Triple 3 en 1 110K</h1>
                     <span>110000 Caladas</span>
                     <p>Cigarrillos Electrónicos Desechables</p>
@@ -455,7 +490,7 @@
                 <!-- Producto 3 -->
                 <div class="product-card">
                     <img src="images/products/Fumot-Eco-2-en-1-50K-Espana-Vaper-Desechable-Banana-Ice-Black-Dragon-Ice-50000-Caladas.png"
-                        alt="Fumot Eco 2 en 1 50K Espana Vaper Desechable Banana Ice Black Dragon Ice 50000 Caladas - caladas, vapers desechables, vaper desechable, vaper con nicotina, cigarrillos electrónicos, muchas caladas, sabores vaper, puff, cigarrillos electrónicos desechables"
+                        alt="Fumot Eco 2 en 1 50K vaper desechable con 50000 caladas"
                         class="product-img">
                     <h1>Fumot Eco 2 en 1 50K</h1>
                     <span>50000 Caladas</span>
@@ -467,7 +502,7 @@
                 <!-- Producto 4 -->
                 <div class="product-card">
                     <img src="images/products/VapSolo-Twins-Pro-50K-Espana-Vaper-Desechable-Strawberry-kiwi-Strawberry-raspberry-chery-ice-50000-Caladas.png"
-                        alt="VapSolo Twins Pro 50K Espana Vaper Desechable Strawberry kiwi Strawberry raspberry chery ice 50000 Caladas - caladas, vapers desechables, vaper desechable, vaper con nicotina, cigarrillos electrónicos, muchas caladas, sabores vaper, puff, cigarrillos electrónicos desechables"
+                        alt="VapSolo Twins Pro 50K vaper desechable con 50000 caladas"
                         class="product-img">
                     <h1>VapSolo Twins Pro 50K</h1>
                     <span>50000 Caladas</span>
@@ -479,7 +514,7 @@
                 <!-- Producto 5 -->
                 <div class="product-card">
                     <img src="images/products/MerryMi-Mecha-X-28K-Espana-Vaper-Desechable-Peach-Guava-28000-Caladas.png"
-                        alt="MerryMi Mecha X 28K Espana Vaper Desechable Peach Guava 28000 Caladas - caladas, vapers desechables, vaper desechable, vaper con nicotina, cigarrillos electrónicos, muchas caladas, sabores vaper, puff, cigarrillos electrónicos desechables"
+                        alt="MerryMi Mecha X 28K vaper desechable con 28000 caladas"
                         class="product-img">
                     <h1>MerryMi Mecha X 28K</h1>
                     <span>28000 Caladas</span>
@@ -491,7 +526,7 @@
                 <!-- Producto 6 -->
                 <div class="product-card">
                     <img src="images/products/JNR-Quads-4-en-1-120K-Espana-Vaper-Desechable-Raspberry-Orange-Blueberry-Sour-Raspberry-JNR-VC-Boost-JNR-Red-Punch-120000-Caladas.png"
-                        alt="JNR Quads 4 en 1 120K Espana Vaper Desechable Raspberry Orange Blueberry Sour Raspberry JNR VC Boost JNR Red Punch 120000 Caladas - caladas, vapers desechables, vaper desechable, vaper con nicotina, cigarrillos electrónicos, muchas caladas, sabores vaper, puff, cigarrillos electrónicos desechables"
+                        alt="JNR Quads 4 en 1 120K vaper desechable con 120000 caladas"
                         class="product-img">
                     <h1>JNR Quads 4 en 1 120K</h1>
                     <span>120000 Caladas</span>
@@ -503,7 +538,7 @@
                 <!-- Producto 7 -->
                 <div class="product-card">
                     <img src="images/products/Fumot-RandM-Tornado-15K-Espana-Vaper-Desechable-Grape-Ice-15000-Caladas.png"
-                        alt="Fumot RandM Tornado 15K Espana Vaper Desechable Grape Ice 15000 Caladas - caladas, vapers desechables, vaper desechable, vaper con nicotina, cigarrillos electrónicos, muchas caladas, sabores vaper, puff, cigarrillos electrónicos desechables"
+                        alt="Fumot RandM Tornado 15K vaper desechable con 15000 caladas"
                         class="product-img">
                     <h1>Fumot RandM Tornado 15K</h1>
                     <span>15000 Caladas</span>
@@ -515,7 +550,7 @@
                 <!-- Producto 8 -->
                 <div class="product-card">
                     <img src="images/products/JNR-RageGorilla-55K-Espana-Vaper-Desechable-Blueberry-Raspberry-Cherry-55000-Caladas.png"
-                        alt="JNR RageGorilla 55K Espana Vaper Desechable Blueberry Raspberry Cherry 55000 Caladas - caladas, vapers desechables, vaper desechable, vaper con nicotina, cigarrillos electrónicos, muchas caladas, sabores vaper, puff, cigarrillos electrónicos desechables"
+                        alt="JNR RageGorilla 55K vaper desechable con 55000 caladas"
                         class="product-img">
                     <h1>JNR RageGorilla 55K</h1>
                     <span>55000 Caladas</span>
@@ -527,7 +562,7 @@
                 <!-- Producto 9 -->
                 <div class="product-card">
                     <img src="images/products/MerryMi-Panda-Pod-66K-Espana-Vaper-Desechable-Strawberry-Kiwi-Grape-Ice-Blueberry-Raspberry-66000-Caladas.png"
-                        alt="MerryMi Panda Pod 66K Espana Vaper Desechable Strawberry Kiwi Grape Ice Blueberry Raspberry 66000 Caladas - caladas, vapers desechables, vaper desechable, vaper con nicotina, cigarrillos electrónicos, muchas caladas, sabores vaper, puff, cigarrillos electrónicos desechables"
+                        alt="MerryMi Panda Pod 66K vaper desechable con 66000 caladas"
                         class="product-img">
                     <h1>MerryMi Panda Pod 66K</h1>
                     <span>66000 Caladas</span>
@@ -544,13 +579,13 @@
         <div class="container">
             <div class="section-header">
                 <h2>Guía definitiva de los Vapers Desechables</h2>
-                <p>Te explicamos cómo elegir sabores vaper, puff y caladas que se adaptan a tu ritmo.</p>
+                <p>Te explicamos cómo elegir sabores y caladas según tus preferencias y el formato del dispositivo.</p>
             </div>
 
             <div class="intro-text-block"
                 style="text-align: center; max-width: 900px; margin: 0 auto 60px; color: var(--text-secondary); line-height: 1.8;">
                 <p>En Elvapero.es reunimos Vapers Desehables y vaper desechable que llegan cargados con sabor premium y
-                    sal de nicotina equilibrada para que cada puff entregue muchas caladas sin esfuerzo.</p>
+                    características visibles en la ficha para ayudarte a comparar modelos de forma simple.</p>
                 <p style="margin-top: 20px;">Explora cigarillos electrónicos desechables en sabores vaper frutales,
                     frescos o dulces, sin preocuparte por recargar líquido o cargar baterías. Nosotros los enviamos
                     directo a tu puerta.</p>
@@ -580,8 +615,7 @@
                         </div>
                         <div class="why-text">
                             <h3>Puff con muchas caladas</h3>
-                            <p>Modelos desde 5 000 hasta 50 000 caladas para que el puff dure el tiempo que necesites.
-                            </p>
+                            <p>Modelos con diferentes cantidades de caladas, según la ficha de cada producto.</p>
                         </div>
                     </div>
                 </div>
@@ -589,7 +623,7 @@
                 <div class="why-phone">
                     <div class="phone-mockup-center">
                         <img src="images/Hero-Vaper-Desechable-Cigarrillo-Electronico-Muchas-Caladas.jpg"
-                            alt="Hero Vaper Desechable Cigarrillo Electronico Muchas Caladas - caladas, vapers desechables, vaper desechable, vaper con nicotina, cigarrillos electrónicos, muchas caladas, sabores vaper, puff, cigarrillos electrónicos desechables">
+                            alt="Vaper desechable y cigarrillo electrónico con muchas caladas">
                     </div>
                 </div>
 
@@ -603,7 +637,7 @@
                         </div>
                         <div class="why-text">
                             <h3>Sabores vaper premium</h3>
-                            <p>Frutas jugosas, mentas suaves y cremas que concentran el sabor en cada puff.</p>
+                            <p>Combinaciones frutales, mentoladas y dulces según la selección visible en la página.</p>
                         </div>
                     </div>
 
@@ -652,7 +686,7 @@
         <div class="container">
             <div class="section-header">
                 <h2>Clientes felices con sus caladas</h2>
-                <p>Historias reales de puff, sabores y muchas caladas.</p>
+                <p>Historias reales sobre sabores y modelos con diferentes cantidades de caladas.</p>
             </div>
 
             <div class="testimonials-slider">
@@ -768,86 +802,65 @@
     </section>
 
     <!-- FAQ -->
-    <section class="faq">
+    <section class="geo-seo" aria-label="Información de compra y disponibilidad">
         <div class="container">
-            <div class="section-header">
-                <h2>Preguntas frecuentes</h2>
-                <p>Resolvemos dudas sobre caladas, sabores vaper y cigarillos electrónicos desechables.</p>
+            <h2>Comprar vapers desechables online en España</h2>
+            <p>En esta página puedes consultar una selección de vapers desechables disponibles online para usuarios adultos en España. El contenido está pensado para ayudarte a comparar modelos, marcas, cantidad de caladas, formato del dispositivo y características principales antes de acceder a la ficha de cada producto.</p>
+
+            <h3>Cobertura en ciudades principales</h3>
+            <p>La información está orientada a usuarios de diferentes zonas de España, incluyendo Madrid, Barcelona, Valencia, Sevilla, Zaragoza, Málaga, Bilbao, Alicante, Murcia, A Coruña, Granada, Palma de Mallorca, Valladolid, Córdoba y Vigo.</p>
+
+            <h3>Modelos y marcas visibles en la página</h3>
+            <p>En el catálogo aparecen marcas y modelos visibles en la página, como VapSolo, JNR, Fumot y MerryMi. Para comparar mejor, revisa la cantidad de caladas, el formato del dispositivo, el sabor y la información disponible en cada ficha de producto.</p>
+
+            <div class="geo-cities" aria-label="Principales ciudades">
+                <span>Madrid</span>
+                <span>Barcelona</span>
+                <span>Valencia</span>
+                <span>Sevilla</span>
+                <span>Zaragoza</span>
+                <span>Málaga</span>
+                <span>Bilbao</span>
+                <span>Alicante</span>
+                <span>Murcia</span>
+                <span>A Coruña</span>
+                <span>Granada</span>
+                <span>Palma de Mallorca</span>
+                <span>Valladolid</span>
+                <span>Córdoba</span>
+                <span>Vigo</span>
             </div>
+        </div>
+    </section>
 
-            <div class="features-grid" style="margin-bottom: 60px;">
-                <div class="feature-card">
-                    <h3>Caladas controladas</h3>
-                    <p>Elige la cantidad de caladas que necesitas según tu consumo diario.</p>
-                </div>
-                <div class="feature-card">
-                    <h3>Sabores vaper variados</h3>
-                    <p>Explora combinaciones frutales, mentoladas y dulces sin complicaciones.</p>
-                </div>
-                <div class="feature-card">
-                    <h3>Puff sin complicaciones</h3>
-                    <p>Los vapers desechables no requieren carga ni mantenimiento.</p>
-                </div>
-            </div>
+    <section class="faq-seo faq" id="faq" aria-label="Preguntas frecuentes">
+        <div class="container">
+            <h2>Preguntas frecuentes</h2>
 
-            <div class="section-header" style="margin-top: 40px;">
-                <h3>Más sobre tu Vaper Desechable</h3>
-                <p>Encuentra respuestas rápidas para elegir el mejor producto.</p>
-            </div>
+            <details class="faq-item">
+                <summary>¿Dónde comprar vapers desechables online en España?</summary>
+                <p>Puedes consultar los modelos visibles desde esta página y acceder a cada ficha de producto para ver detalles, caladas, imágenes y características antes de comprar online.</p>
+            </details>
 
-            <div class="faq-list">
-                <div class="faq-item">
-                    <button class="faq-question">
-                        <span>¿Cuántas caladas trae cada vaper desechable?</span>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="faq-icon">
-                            <path d="M19 9L12 16L5 9" stroke="currentColor" stroke-width="2" />
-                        </svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Los modelos disponibles ofrecen entre 5 000 y 50 000 caladas. Escoge según cuánto vapeas al
-                            día.</p>
-                    </div>
-                </div>
+            <details class="faq-item">
+                <summary>¿Hay vapers desechables disponibles en las principales ciudades de España?</summary>
+                <p>La página está orientada a usuarios de España e incluye referencias a ciudades principales como Madrid, Barcelona, Valencia, Sevilla, Zaragoza, Málaga, Bilbao y Alicante.</p>
+            </details>
 
-                <div class="faq-item">
-                    <button class="faq-question">
-                        <span>¿Qué es un vaper con nicotina?</span>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="faq-icon">
-                            <path d="M19 9L12 16L5 9" stroke="currentColor" stroke-width="2" />
-                        </svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Utilizamos sales de nicotina suaves que proporcionan el golpe justo sin resecar la garganta.
-                        </p>
-                    </div>
-                </div>
+            <details class="faq-item">
+                <summary>¿Cuántas caladas tienen los modelos?</summary>
+                <p>Depende de cada producto. En la página aparecen modelos con diferentes cantidades de caladas, indicadas normalmente en el nombre del producto o en su ficha.</p>
+            </details>
 
-                <div class="faq-item">
-                    <button class="faq-question">
-                        <span>¿Cómo elijo sabores vaper?</span>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="faq-icon">
-                            <path d="M19 9L12 16L5 9" stroke="currentColor" stroke-width="2" />
-                        </svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Recomendamos probar sabores frutales si prefieres puff ligeros, o mentolados y postres para
-                            caladas refrescantes.</p>
-                    </div>
-                </div>
+            <details class="faq-item">
+                <summary>¿Qué marcas de vapers desechables aparecen en la página?</summary>
+                <p>La selección puede incluir marcas visibles en la página, según el catálogo mostrado.</p>
+            </details>
 
-                <div class="faq-item">
-                    <button class="faq-question">
-                        <span>¿Son auténticos los cigarrillos electrónicos desechables?</span>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="faq-icon">
-                            <path d="M19 9L12 16L5 9" stroke="currentColor" stroke-width="2" />
-                        </svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Trabajamos con marcas oficiales y verificamos cada lote para que recibas cigarrillos
-                            electrónicos desechables auténticos.</p>
-                    </div>
-                </div>
-            </div>
+            <details class="faq-item">
+                <summary>¿Cómo elegir un vaper desechable?</summary>
+                <p>Compara la cantidad de caladas, el formato, la marca y el tipo de sabor. Si buscas más duración, revisa modelos con más caladas; si prefieres algo simple, compara formatos compactos.</p>
+            </details>
         </div>
     </section>
 
@@ -855,8 +868,7 @@
         <div class="social">
             <div class="footer-logo">
                 <a href="index.html" class="logo">
-                    <img src="favicon-96x96.png"
-                        alt="Favicon 96x96 - caladas, vapers desechables, vaper desechable, vaper con nicotina, cigarrillos electrónicos, muchas caladas, sabores vaper, puff, cigarrillos electrónicos desechables" />
+                    <img src="favicon-96x96.png" alt="Logo de Vaperofertas.es" />
                 </a>
             </div>
             <div>
@@ -962,56 +974,31 @@
             <div class="city">
                 <p id="city">Vapers Desechables en España</p>
             </div>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Madrid</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Barcelona</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Valencia</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Sevilla</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Zaragoza</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Málaga</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Las Palmas de Gran Canaria</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Bilbao</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Murcia</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Valladolid</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Córdoba</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Palma de Mallorca</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Vigo</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Alicante</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Gijón</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Hospitalet de Llobregat</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Granada</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en A Coruña</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Vitoria-Gasteiz</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Badalona</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Santa Cruz de Tenerife</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Oviedo</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Móstoles</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Elche</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Sabadell</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Santander</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Jerez de la Frontera</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en San Sebastián</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Leganés</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Almería</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Cartagena</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Terrassa</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Alcalá de Henares</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Fuenlabrada</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Pamplona</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Burgos</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Salamanca</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Albacete</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en León</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Getafe</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Alcorcón</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Cádiz</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Huelva</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Castellón de la Plana</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Badajoz</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Logroño</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Santa Coloma de Gramanet</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en La Laguna</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Lleida</a>
-            <a href="https://www.elvapero.es/">Vapers Desechables en Tarragona</a>
+            <span>Vapers Desechables en Gijón</span>
+            <span>Vapers Desechables en Hospitalet de Llobregat</span>
+            <span>Vapers Desechables en Vitoria-Gasteiz</span>
+            <span>Vapers Desechables en Elche</span>
+            <span>Vapers Desechables en Oviedo</span>
+            <span>Vapers Desechables en Badalona</span>
+            <span>Vapers Desechables en Cartagena</span>
+            <span>Vapers Desechables en Terrassa</span>
+            <span>Vapers Desechables en Jerez de la Frontera</span>
+            <span>Vapers Desechables en Sabadell</span>
+            <span>Vapers Desechables en Santa Cruz de Tenerife</span>
+            <span>Vapers Desechables en Pamplona</span>
+            <span>Vapers Desechables en Almería</span>
+            <span>Vapers Desechables en San Sebastián</span>
+            <span>Vapers Desechables en Burgos</span>
+            <span>Vapers Desechables en Albacete</span>
+            <span>Vapers Desechables en Santander</span>
+            <span>Vapers Desechables en Castellón de la Plana</span>
+            <span>Vapers Desechables en Logroño</span>
+            <span>Vapers Desechables en Badajoz</span>
+            <span>Vapers Desechables en Huelva</span>
+            <span>Vapers Desechables en Lleida</span>
+            <span>Vapers Desechables en Tarragona</span>
+            <span>Vapers Desechables en León</span>
+            <span>Vapers Desechables en Cádiz</span>
         </div>
         <div class="copyright">
             <p>© <span id="year"></span> Vaperofertas.es - Vapers Desechables en España.</p>

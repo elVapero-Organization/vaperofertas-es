@@ -1209,6 +1209,81 @@ footer svg {
     gap: 20px;
 }
 
+/* ==============================
+   GEO + FAQ SEO SECTIONS (SCOPED)
+   ============================== */
+.geo-seo,
+.faq-seo {
+    padding: 60px 0;
+}
+
+.geo-seo .container,
+.faq-seo .container {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: var(--radius-xl);
+    padding: 32px;
+}
+
+.geo-seo h2,
+.faq-seo h2 {
+    font-size: clamp(22px, 4vw, 32px);
+    margin-bottom: 14px;
+}
+
+.geo-seo h3 {
+    margin-top: 18px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.geo-seo p,
+.faq-seo p {
+    color: var(--text-secondary);
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.geo-cities {
+    margin-top: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.geo-cities span {
+    padding: 8px 12px;
+    border-radius: 999px;
+    background: rgba(139, 92, 246, 0.12);
+    border: 1px solid rgba(139, 92, 246, 0.22);
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 13px;
+    line-height: 1;
+}
+
+.faq-seo .faq-item {
+    margin-top: 12px;
+    border-radius: var(--radius-lg);
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 14px 16px;
+}
+
+.faq-seo .faq-item summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.95);
+    list-style: none;
+}
+
+.faq-seo .faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-seo .faq-item p {
+    margin-top: 10px;
+}
+
 .foot-cont-three {
     display: flex;
     flex-wrap: wrap;
@@ -1241,6 +1316,11 @@ footer svg {
 }
 
 .foot-cont-three a {
+    display: none;
+}
+
+.foot-cont-three > span,
+.foot-cont-three > p {
     display: none;
 }
 
