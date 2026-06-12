@@ -29,7 +29,10 @@
                         "url": "https://vaperofertas.es/apple-touch-icon.png"
                     },
                     "image": "https://vaperofertas.es/apple-touch-icon.png",
-                    "areaServed": "ES",
+                    "areaServed": {
+                        "@type": "Country",
+                        "name": "España"
+                    },
                     "availableLanguage": "es-ES"
                 },
                 {
@@ -40,6 +43,11 @@
                     "publisher": {
                         "@id": "https://vaperofertas.es/#organization"
                     },
+                    "areaServed": {
+                        "@type": "Country",
+                        "name": "España"
+                    },
+                    "availableLanguage": "es-ES",
                     "inLanguage": "es-ES"
                 },
                 {
@@ -51,6 +59,12 @@
                             "position": 1,
                             "name": "Página principal",
                             "item": "https://vaperofertas.es/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Vapers desechables",
+                            "item": "https://vaperofertas.es/"
                         }
                     ]
                 },
@@ -60,6 +74,11 @@
                     "url": "https://vaperofertas.es/",
                     "name": "Vapers Desechables con Muchas Caladas en España | Vaperofertas.es",
                     "description": "Compara vapers desechables con muchas caladas en España. Selección para usuarios adultos con modelos VapSolo, JNR, Fumot y MerryMi, y acceso a fichas de producto en elVapero.es para comprar online.",
+                    "areaServed": {
+                        "@type": "Country",
+                        "name": "España"
+                    },
+                    "availableLanguage": "es-ES",
                     "inLanguage": "es-ES",
                     "isPartOf": {
                         "@id": "https://vaperofertas.es/#website"
@@ -86,90 +105,306 @@
                             "@type": "ListItem",
                             "position": 1,
                             "item": {
-                                "@type": "Thing",
-                                "name": "VapSolo Quads 80K vaper desechable 80000 caladas",
+                                "@type": "Product",
+                                "@id": "https://elvapero.es/products/vapsolo-quads-80k-caladas-80000#product",
+                                "name": "VapSolo Quads 80K",
+                                "description": "Vaper desechable VapSolo Quads 80K con 80000 caladas para usuarios adultos en España.",
                                 "url": "https://elvapero.es/products/vapsolo-quads-80k-caladas-80000",
-                                "image": "https://vaperofertas.es/images/products/VapSolo-Quads-80K-Espana-Vaper-Desechable-Strawberry-Mango-Watermelon-Ice-80000-Caladas.png"
+                                "image": "https://vaperofertas.es/images/products/VapSolo-Quads-80K-Espana-Vaper-Desechable-Strawberry-Mango-Watermelon-Ice-80000-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "VapSolo"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://elvapero.es/products/vapsolo-quads-80k-caladas-80000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@type": "Organization",
+                                        "name": "ElVapero.es",
+                                        "url": "https://elvapero.es/"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
                             }
                         },
                         {
                             "@type": "ListItem",
                             "position": 2,
                             "item": {
-                                "@type": "Thing",
-                                "name": "JNR Triple 3 en 1 110K vaper desechable 110000 caladas",
+                                "@type": "Product",
+                                "@id": "https://elvapero.es/products/jnr-triple-110k-caladas-110000#product",
+                                "name": "JNR Triple 3 en 1 110K",
+                                "description": "Vaper desechable JNR Triple 3 en 1 110K con 110000 caladas para usuarios adultos en España.",
                                 "url": "https://elvapero.es/products/jnr-triple-110k-caladas-110000",
-                                "image": "https://vaperofertas.es/images/products/JNR-Triple-3-en-1-110K-Espana-Vaper-Desechable-Watermelon-Ice-Triple-Melon-Strawberry-Watermelon-Ice-110000-Caladas.png"
+                                "image": "https://vaperofertas.es/images/products/JNR-Triple-3-en-1-110K-Espana-Vaper-Desechable-Watermelon-Ice-Triple-Melon-Strawberry-Watermelon-Ice-110000-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "JNR"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://elvapero.es/products/jnr-triple-110k-caladas-110000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@type": "Organization",
+                                        "name": "ElVapero.es",
+                                        "url": "https://elvapero.es/"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
                             }
                         },
                         {
                             "@type": "ListItem",
                             "position": 3,
                             "item": {
-                                "@type": "Thing",
-                                "name": "Fumot Eco 2 en 1 50K vaper desechable 50000 caladas",
+                                "@type": "Product",
+                                "@id": "https://elvapero.es/products/fumot-eco-2w1-50k-caladas-50000#product",
+                                "name": "Fumot Eco 2 en 1 50K",
+                                "description": "Vaper desechable Fumot Eco 2 en 1 50K con 50000 caladas para usuarios adultos en España.",
                                 "url": "https://elvapero.es/products/fumot-eco-2w1-50k-caladas-50000",
-                                "image": "https://vaperofertas.es/images/products/Fumot-Eco-2-en-1-50K-Espana-Vaper-Desechable-Banana-Ice-Black-Dragon-Ice-50000-Caladas.png"
+                                "image": "https://vaperofertas.es/images/products/Fumot-Eco-2-en-1-50K-Espana-Vaper-Desechable-Banana-Ice-Black-Dragon-Ice-50000-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Fumot"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://elvapero.es/products/fumot-eco-2w1-50k-caladas-50000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@type": "Organization",
+                                        "name": "ElVapero.es",
+                                        "url": "https://elvapero.es/"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
                             }
                         },
                         {
                             "@type": "ListItem",
                             "position": 4,
                             "item": {
-                                "@type": "Thing",
-                                "name": "VapSolo Twins Pro 50K vaper desechable 50000 caladas",
+                                "@type": "Product",
+                                "@id": "https://elvapero.es/products/vapsolo-twins-pro-50k-caladas-50000#product",
+                                "name": "VapSolo Twins Pro 50K",
+                                "description": "Vaper desechable VapSolo Twins Pro 50K con 50000 caladas para usuarios adultos en España.",
                                 "url": "https://elvapero.es/products/vapsolo-twins-pro-50k-caladas-50000",
-                                "image": "https://vaperofertas.es/images/products/VapSolo-Twins-Pro-50K-Espana-Vaper-Desechable-Strawberry-kiwi-Strawberry-raspberry-chery-ice-50000-Caladas.png"
+                                "image": "https://vaperofertas.es/images/products/VapSolo-Twins-Pro-50K-Espana-Vaper-Desechable-Strawberry-kiwi-Strawberry-raspberry-chery-ice-50000-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "VapSolo"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://elvapero.es/products/vapsolo-twins-pro-50k-caladas-50000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@type": "Organization",
+                                        "name": "ElVapero.es",
+                                        "url": "https://elvapero.es/"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
                             }
                         },
                         {
                             "@type": "ListItem",
                             "position": 5,
                             "item": {
-                                "@type": "Thing",
-                                "name": "MerryMi Mecha X 28K vaper desechable 28000 caladas",
-                                "url": "https://elvapero.es/products/merrymi-mecha-x-28k-caladas-28000",
-                                "image": "https://vaperofertas.es/images/products/MerryMi-Mecha-X-28K-Espana-Vaper-Desechable-Peach-Guava-28000-Caladas.png"
+                                "@type": "Product",
+                                "@id": "https://elvapero.es/products/merrymi-mecha-x-36k-caladas-36000#product",
+                                "name": "MerryMi Mecha X 36K",
+                                "description": "Vaper desechable MerryMi Mecha X 36K con 36000 caladas para usuarios adultos en España.",
+                                "url": "https://elvapero.es/products/merrymi-mecha-x-36k-caladas-36000",
+                                "image": "https://vaperofertas.es/images/products/MerryMi-Mecha-X-36K-Espana-Vaper-Desechable-36000-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "MerryMi"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://elvapero.es/products/merrymi-mecha-x-36k-caladas-36000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@type": "Organization",
+                                        "name": "ElVapero.es",
+                                        "url": "https://elvapero.es/"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
                             }
                         },
                         {
                             "@type": "ListItem",
                             "position": 6,
                             "item": {
-                                "@type": "Thing",
-                                "name": "JNR Quads 4 en 1 120K vaper desechable 120000 caladas",
+                                "@type": "Product",
+                                "@id": "https://elvapero.es/products/jnr-quads-120k-caladas-120000#product",
+                                "name": "JNR Quads 4 en 1 120K",
+                                "description": "Vaper desechable JNR Quads 4 en 1 120K con 120000 caladas para usuarios adultos en España.",
                                 "url": "https://elvapero.es/products/jnr-quads-120k-caladas-120000",
-                                "image": "https://vaperofertas.es/images/products/JNR-Quads-4-en-1-120K-Espana-Vaper-Desechable-Raspberry-Orange-Blueberry-Sour-Raspberry-JNR-VC-Boost-JNR-Red-Punch-120000-Caladas.png"
+                                "image": "https://vaperofertas.es/images/products/JNR-Quads-4-en-1-120K-Espana-Vaper-Desechable-Raspberry-Orange-Blueberry-Sour-Raspberry-JNR-VC-Boost-JNR-Red-Punch-120000-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "JNR"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://elvapero.es/products/jnr-quads-120k-caladas-120000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@type": "Organization",
+                                        "name": "ElVapero.es",
+                                        "url": "https://elvapero.es/"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
                             }
                         },
                         {
                             "@type": "ListItem",
                             "position": 7,
                             "item": {
-                                "@type": "Thing",
-                                "name": "Fumot RandM Tornado 15K vaper desechable 15000 caladas",
+                                "@type": "Product",
+                                "@id": "https://elvapero.es/products/fumot-tornado-15k-caladas-15000#product",
+                                "name": "Fumot RandM Tornado 15K",
+                                "description": "Vaper desechable Fumot RandM Tornado 15K con 15000 caladas para usuarios adultos en España.",
                                 "url": "https://elvapero.es/products/fumot-tornado-15k-caladas-15000",
-                                "image": "https://vaperofertas.es/images/products/Fumot-RandM-Tornado-15K-Espana-Vaper-Desechable-Grape-Ice-15000-Caladas.png"
+                                "image": "https://vaperofertas.es/images/products/Fumot-RandM-Tornado-15K-Espana-Vaper-Desechable-Grape-Ice-15000-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Fumot"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://elvapero.es/products/fumot-tornado-15k-caladas-15000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@type": "Organization",
+                                        "name": "ElVapero.es",
+                                        "url": "https://elvapero.es/"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
                             }
                         },
                         {
                             "@type": "ListItem",
                             "position": 8,
                             "item": {
-                                "@type": "Thing",
-                                "name": "JNR RageGorilla 55K vaper desechable 55000 caladas",
+                                "@type": "Product",
+                                "@id": "https://elvapero.es/products/jnr-ragegorilla-55k-caladas-55000#product",
+                                "name": "JNR RageGorilla 55K",
+                                "description": "Vaper desechable JNR RageGorilla 55K con 55000 caladas para usuarios adultos en España.",
                                 "url": "https://elvapero.es/products/jnr-ragegorilla-55k-caladas-55000",
-                                "image": "https://vaperofertas.es/images/products/JNR-RageGorilla-55K-Espana-Vaper-Desechable-Blueberry-Raspberry-Cherry-55000-Caladas.png"
+                                "image": "https://vaperofertas.es/images/products/JNR-RageGorilla-55K-Espana-Vaper-Desechable-Blueberry-Raspberry-Cherry-55000-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "JNR"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://elvapero.es/products/jnr-ragegorilla-55k-caladas-55000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@type": "Organization",
+                                        "name": "ElVapero.es",
+                                        "url": "https://elvapero.es/"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
                             }
                         },
                         {
                             "@type": "ListItem",
                             "position": 9,
                             "item": {
-                                "@type": "Thing",
-                                "name": "MerryMi Panda Pod 66K vaper desechable 66000 caladas",
+                                "@type": "Product",
+                                "@id": "https://elvapero.es/products/merrymi-panda-pod-66k-caladas-66000#product",
+                                "name": "MerryMi Panda Pod 66K",
+                                "description": "Vaper desechable MerryMi Panda Pod 66K con 66000 caladas para usuarios adultos en España.",
                                 "url": "https://elvapero.es/products/merrymi-panda-pod-66k-caladas-66000",
-                                "image": "https://vaperofertas.es/images/products/MerryMi-Panda-Pod-66K-Espana-Vaper-Desechable-Strawberry-Kiwi-Grape-Ice-Blueberry-Raspberry-66000-Caladas.png"
+                                "image": "https://vaperofertas.es/images/products/MerryMi-Panda-Pod-66K-Espana-Vaper-Desechable-Strawberry-Kiwi-Grape-Ice-Blueberry-Raspberry-66000-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "MerryMi"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://elvapero.es/products/merrymi-panda-pod-66k-caladas-66000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@type": "Organization",
+                                        "name": "ElVapero.es",
+                                        "url": "https://elvapero.es/"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
                             }
                         }
                     ]
@@ -200,7 +435,7 @@
                             "name": "¿Qué modelos aparecen en esta selección?",
                             "acceptedAnswer": {
                                 "@type": "Answer",
-                                "text": "En esta página aparecen modelos como VapSolo Quads 80K, JNR Triple 3 en 1 110K, Fumot Eco 2 en 1 50K, VapSolo Twins Pro 50K, MerryMi Mecha X 28K, JNR Quads 4 en 1 120K, JNR RageGorilla 55K y MerryMi Panda Pod 66K."
+                            "text": "En esta página aparecen modelos como VapSolo Quads 80K, JNR Triple 3 en 1 110K, Fumot Eco 2 en 1 50K, VapSolo Twins Pro 50K, MerryMi Mecha X 36K, JNR Quads 4 en 1 120K, JNR RageGorilla 55K y MerryMi Panda Pod 66K."
                             }
                         },
                         {
@@ -513,12 +748,12 @@
                 <!-- Producto 5 -->
                 <div class="product-card">
                     <img src="images/products/MerryMi-Mecha-X-28K-Espana-Vaper-Desechable-Peach-Guava-28000-Caladas.png"
-                        alt="MerryMi Mecha X 28K vaper desechable con 28000 caladas"
+                        alt="MerryMi Mecha X 36K vaper desechable con 36000 caladas"
                         class="product-img">
-                    <h3>MerryMi Mecha X 28K</h3>
-                    <span>28000 Caladas</span>
+                    <h3>MerryMi Mecha X 36K</h3>
+                    <span>36000 Caladas</span>
                     <p>Cigarrillos Electrónicos Desechables</p>
-                    <a href="https://elvapero.es/products/merrymi-mecha-x-28k-caladas-28000" class="btn-plan">COMPRAR
+                    <a href="https://elvapero.es/products/merrymi-mecha-x-36k-caladas-36000" class="btn-plan">COMPRAR
                         AHORA</a>
                 </div>
 
@@ -907,7 +1142,7 @@
 
             <details class="faq-item">
                 <summary>¿Qué modelos aparecen en esta selección?</summary>
-                <p>En esta página aparecen modelos como VapSolo Quads 80K, JNR Triple 3 en 1 110K, Fumot Eco 2 en 1 50K, VapSolo Twins Pro 50K, MerryMi Mecha X 28K, JNR Quads 4 en 1 120K, JNR RageGorilla 55K y MerryMi Panda Pod 66K.</p>
+                <p>En esta página aparecen modelos como VapSolo Quads 80K, JNR Triple 3 en 1 110K, Fumot Eco 2 en 1 50K, VapSolo Twins Pro 50K, MerryMi Mecha X 36K, JNR Quads 4 en 1 120K, JNR RageGorilla 55K y MerryMi Panda Pod 66K.</p>
             </details>
 
             <details class="faq-item">
@@ -1075,5 +1310,4 @@
 </body>
 
 </html>
-
 
